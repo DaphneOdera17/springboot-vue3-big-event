@@ -21,4 +21,22 @@ public interface UserService {
      * @param password
      */
     void register(String username, String password);
+
+    /**
+     * 修改用户信息
+     * @param user
+     */
+    void update(User user);
+
+    /**
+     * 修改用户头像
+     * @param avatarUrl
+     */
+    void updateAvatar(String avatarUrl);
+
+    /**
+     * 修改用户密码
+     * @param newPwd
+     */
+    void updatePwd(String newPwd);
 }
