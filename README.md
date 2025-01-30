@@ -11,11 +11,21 @@ setx OSS_ACCESS_KEY_ID "YOUR_ACCESS_KEY_ID"
 setx OSS_ACCESS_KEY_SECRET "YOUR_ACCESS_KEY_SECRET"
 ```
 
+## 数据库
 
+sql 文件下的 big_event.sql 提供了部分数据，需要在后端部分 application.yml 下配置连接自己的 mysql 数据库。
+
+## 前端部分
+
+别忘了在根目录下用 npm 安装插件
+
+```shell
+npm install
+```
 
 ## 后端部分
 
-需要在 resources 目录下创建 $application.yml$ 参考配置如下
+需要在 resources 目录下创建 $application.yml$ 参考配置如下。
 
 ```yaml
 spring:
