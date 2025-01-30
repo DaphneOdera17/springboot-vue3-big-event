@@ -63,7 +63,7 @@ const addCategory = async ()=>{
   ElMessage.success(result.message ? result.message : '添加成功')
 
   // 添加成功后再调用获取所有文章分类的函数
-  articleCategoryList()
+  await articleCategoryList()
 
   dialogVisible.value = false
 }
