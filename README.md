@@ -2,7 +2,7 @@
 
 
 
-根据黑马教程实现的一个 springboot3 和 vue3 的项目，未完成。
+根据黑马教程实现的一个 springboot3 和 vue3 的项目。
 
 阿里云 OSS 的 secret key 和 access key 需要在环境变量中配置，cmd 中使用
 
