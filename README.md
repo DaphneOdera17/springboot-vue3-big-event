@@ -27,6 +27,8 @@ npm install
 
 需要在 resources 目录下创建 $application.yml$ 参考配置如下。
 
+记得启动 redis，否则无法完成登录。
+
 ```yaml
 spring:
   datasource:
